@@ -77,7 +77,7 @@ import time
 ngrok.set_auth_token("2ygJmfo7hJMJy790WoDiWStHdfO_3AjuafbUTmbMhNQ9VFzkM")
 
 # Kill previous streamlit processes (if any)
-!pkill streamlit
+# !pkill streamlit
 
 # Launch the Streamlit app in background
 !streamlit run app.py &>/dev/null &
