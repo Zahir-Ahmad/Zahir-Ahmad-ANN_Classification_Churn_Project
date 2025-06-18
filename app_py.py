@@ -92,9 +92,10 @@ print("✅ Streamlit app is live at:", public_url)
 from google.colab import drive
 drive.mount('/content/drive')
 
-!ls /content/drive/MyDrive/ANN_Project/ANN_P1/
+# !ls /content/drive/MyDrive/ANN_Project/ANN_P1/
 
-!wget -q -O - ipv4.icanhazip.com
+# !wget -q -O - ipv4.icanhazip.com
+# #
 
-!streamlit run app.py & npx localtunnel --port 8501
+# !streamlit run app.py & npx localtunnel --port 8501
 
